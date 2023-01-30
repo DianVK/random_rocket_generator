@@ -1,8 +1,8 @@
 import random
 
-from Projects.randommissilegenerator.missile_types.facet_bomb import FacetBomb
-from Projects.randommissilegenerator.missile_types.thermo_nuclear import ThermoNuclear
-from Projects.randommissilegenerator.missile_types.tnt_bomb import TNTBomb
+from Projects.random_missile_generator.missile_types.facet_bomb import FacetBomb
+from Projects.random_missile_generator.missile_types.thermo_nuclear import ThermoNuclear
+from Projects.random_missile_generator.missile_types.tnt_bomb import TNTBomb
 
 
 def generate_random_missile():
@@ -12,5 +12,5 @@ def generate_random_missile():
         return ThermoNuclear(serial_number)
     elif missile_type == "FacetBomb":
         return FacetBomb(serial_number)
-    else:
+    elif missile_type == "TNTBomb":
         return TNTBomb(serial_number)

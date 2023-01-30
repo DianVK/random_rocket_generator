@@ -1,4 +1,4 @@
-from Projects.randommissilegenerator.main import RandomMissileGenerator
+from Projects.random_missile_generator.main import RandomMissileGenerator
 
 
 class ThermoNuclear(RandomMissileGenerator):
