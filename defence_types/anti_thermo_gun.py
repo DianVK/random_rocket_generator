@@ -9,8 +9,8 @@ class AntiThermoGun:
         if isinstance(missile, ThermoNuclear):
             defence_activation = randint(0, 10)
             if defence_activation % 2 != 0:
-                print(f"---------- MISSILE '{missile.serial_number}' DETECTED ----------")
-                print(f"- Anti-Thermo-Gun DESTROYED MISSILE Facet-Bomb -")
+                print(f"----------- MISSILE '{missile.serial_number}' DETECTED -----------")
+                print(f"- Anti-Thermo-Gun DESTROYED MISSILE Thermo-Nuclear -")
             else:
                 print(f"----------- AIR DEFENCE SYSTEM FAILED ----------")
                 print(f"---- Anti-Thermo-Gun MISSED Thermo-Nuclear -----")

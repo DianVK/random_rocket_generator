@@ -9,7 +9,7 @@ class AntiFacetGun:
         if isinstance(missile, FacetBomb):
             defence_activation = randint(0, 10)
             if defence_activation % 2 != 0:
-                print(f"---------- MISSILE '{missile.serial_number}' DETECTED ----------")
+                print(f"----------- MISSILE '{missile.serial_number}' DETECTED -----------")
                 print(f"- Anti-Facet-Gun DESTROYED MISSILE Facet-Bomb -")
             else:
                 print(f"----------- AIR DEFENCE SYSTEM FAILED -----------")
