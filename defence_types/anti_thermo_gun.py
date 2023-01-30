@@ -1,7 +1,11 @@
-from Projects.random_missile_generator.air_defence_system import AirDefenceSystem
+from Projects.random_missile_generator.missile_types.thermo_nuclear import ThermoNuclear
 
 
-class AntiThermoGun(AirDefenceSystem):
+class AntiThermoGun:
 
-    def __init__(self,serial_num):
-        super().__init__(serial_num,"AntiThermoGun")
+    def neutralize(self, missile):
+        if isinstance(missile, ThermoNuclear):
+            print(f"--- Anti-Thermo-Gun DESTROYED MISSILE {missile.serial_number} ---")
+
+        else:
+            print("Anti-Thermo-System cannot neutralize missile with serial number", missile.serial_number)
