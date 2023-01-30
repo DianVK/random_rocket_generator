@@ -10,9 +10,9 @@ class AirDefenceSystem:
         self.anti_tnt_gun = AntiTNTGun()
 
     def intercept_missile(self, missile):
-        if missile.missile_type == "ThermoNuclear":
+        if missile.missile_type == "Thermo-Nuclear":
             self.anti_thermo_gun.neutralize(missile)
-        elif missile.missile_type == "FacetBomb":
+        elif missile.missile_type == "Facet-Bomb":
             self.anti_facet_gun.neutralize(missile)
-        elif missile.missile_type == "AntiTNTGun":
+        elif missile.missile_type == "TNT-Bomb":
             self.anti_tnt_gun.neutralize(missile)

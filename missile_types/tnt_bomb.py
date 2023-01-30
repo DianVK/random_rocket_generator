@@ -1,6 +1,6 @@
-from Projects.random_missile_generator.main import RandomMissileGenerator
+from Projects.random_missile_generator.random_missile_generator import RandomMissileGenerator
 
 
 class TNTBomb(RandomMissileGenerator):
     def __init__(self,serial_number):
-        super().__init__(serial_number,"TNTBomb")
+        super().__init__(serial_number,"TNT-Bomb")
