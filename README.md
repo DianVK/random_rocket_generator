@@ -2,7 +2,6 @@
 ![README](https://user-images.githubusercontent.com/115580585/215586375-1c671a59-15a6-4575-8cbe-866f8276397f.gif)
 
 Console Application To Represent A Random Missile Generator with an Air Defence System
-Create a console application to represent:
 - It is generating 1 random missile every 3 seconds
 - Missiles are 3 types: ThermoNuclear, FacetBomb and TNTBomb (each represented by a different class)
 - Missiles have the following properties: SerialNumber (unique), MissileType
