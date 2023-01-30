@@ -7,8 +7,8 @@ from Projects.random_missile_generator.missile_types.tnt_bomb import TNTBomb
 
 def generate_random_missile():
     serial_number = random.randint(10000, 100000)
-    missile_type = random.choice(["Thermonuclear", "FacetBomb", "TNTBomb"])
-    if missile_type == "Thermonuclear":
+    missile_type = random.choice(["ThermoNuclear", "FacetBomb", "TNTBomb"])
+    if missile_type == "ThermoNuclear":
         return ThermoNuclear(serial_number)
     elif missile_type == "FacetBomb":
         return FacetBomb(serial_number)
