@@ -10,7 +10,7 @@ class AntiTNTGun:
             defence_activation = randint(0, 10)
             if defence_activation % 2 != 0:
                 print(f"----------- MISSILE '{missile.serial_number}' DETECTED -----------")
-                print(f"- Anti-TNT-Gun DESTROYED MISSILE TNT-Bomb -")
+                print(f"--- Anti-TNT-Gun DESTROYED MISSILE TNT-Bomb ---")
             else:
                 print(f"---------- AIR DEFENCE SYSTEM FAILED ----------")
                 print(f"-------- Anti-TNT-Gun MISSED TNT-Bomb ---------")
