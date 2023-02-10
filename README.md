@@ -1,4 +1,3 @@
-
 ![GIF](https://user-images.githubusercontent.com/115580585/216388418-4eb823f1-9d51-4b9c-9af4-f4405532d326.gif)
 
 Console Application To Represent A Random Missile Generator with an Air Defence System
